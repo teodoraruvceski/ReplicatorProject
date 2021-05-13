@@ -45,6 +45,10 @@ namespace Receiver
         int collection2Count;
         int collection3Count;
         int collection4Count;
+        Reader reader1;
+        Reader reader2;
+        Reader reader3;
+        Reader reader4;
 
         public ReplicatorReceiver()
         {
@@ -52,10 +56,16 @@ namespace Receiver
             collectionDescription2 = new CollectionDescription();
             collectionDescription3 = new CollectionDescription();
             collectionDescription4 = new CollectionDescription();
+
             collection1Count = 0;
             collection2Count = 0;
             collection3Count = 0;
             collection4Count = 0;
+
+            reader1 = new Reader("dataset1");
+            reader2= new Reader("dataset2");
+            reader3= new Reader("dataset3");
+            reader4= new Reader("dataset4");
         }
 
         public void Send(string code, double value)
@@ -85,6 +95,31 @@ namespace Receiver
             }
 
 
+        }
+        private ReceiverProperty[] RemoveFirst(ReceiverProperty[] param)
+        {
+            List<ReceiverProperty> l = param.ToList<ReceiverProperty>();
+            l.RemoveAt(0);
+            return l.ToArray();
+
+        }
+        public void ReadersRead()
+        {
+            while(true)
+            {
+                reader1.WriteInFile(collectionDescription1.Collection.properties[0]);
+                collectionDescription1.Collection.properties = RemoveFirst(collectionDescription1.Collection.properties);
+
+                reader2.WriteInFile(collectionDescription2.Collection.properties[0]);
+                collectionDescription2.Collection.properties = RemoveFirst(collectionDescription2.Collection.properties);
+
+                reader3.WriteInFile(collectionDescription3.Collection.properties[0]);
+                collectionDescription3.Collection.properties = RemoveFirst(collectionDescription3.Collection.properties);
+
+                reader4.WriteInFile(collectionDescription4.Collection.properties[0]);
+                collectionDescription4.Collection.properties = RemoveFirst(collectionDescription4.Collection.properties);
+
+            }
         }
     }
 }
