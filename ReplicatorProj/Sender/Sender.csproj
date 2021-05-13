@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{211E55F6-8950-42DA-AC38-D5D67A8FDDF0}</ProjectGuid>
+    <ProjectGuid>{FA52F1C4-DD4B-468B-81EC-8F695A3B2383}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Sender</RootNamespace>
     <AssemblyName>Sender</AssemblyName>
@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Writer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
