@@ -1,0 +1,10 @@
+E:\Tea\fax\PrivatniCasoviFtn\Emilija res\ReplicatorProject\ReplicatorProj\Sender\bin\Debug\Sender.exe.config
+E:\Tea\fax\PrivatniCasoviFtn\Emilija res\ReplicatorProject\ReplicatorProj\Sender\bin\Debug\Sender.exe
+E:\Tea\fax\PrivatniCasoviFtn\Emilija res\ReplicatorProject\ReplicatorProj\Sender\bin\Debug\Sender.pdb
+E:\Tea\fax\PrivatniCasoviFtn\Emilija res\ReplicatorProject\ReplicatorProj\Sender\bin\Debug\Receiver.dll
+E:\Tea\fax\PrivatniCasoviFtn\Emilija res\ReplicatorProject\ReplicatorProj\Sender\bin\Debug\Receiver.pdb
+E:\Tea\fax\PrivatniCasoviFtn\Emilija res\ReplicatorProject\ReplicatorProj\Sender\obj\Debug\Sender.csprojAssemblyReference.cache
+E:\Tea\fax\PrivatniCasoviFtn\Emilija res\ReplicatorProject\ReplicatorProj\Sender\obj\Debug\Sender.csproj.CoreCompileInputs.cache
+E:\Tea\fax\PrivatniCasoviFtn\Emilija res\ReplicatorProject\ReplicatorProj\Sender\obj\Debug\Sender.csproj.CopyComplete
+E:\Tea\fax\PrivatniCasoviFtn\Emilija res\ReplicatorProject\ReplicatorProj\Sender\obj\Debug\Sender.exe
+E:\Tea\fax\PrivatniCasoviFtn\Emilija res\ReplicatorProject\ReplicatorProj\Sender\obj\Debug\Sender.pdb

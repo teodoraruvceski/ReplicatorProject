@@ -23,23 +23,8 @@ namespace Receiver
             FileItem fileItem = new FileItem(receiverProperty, DateTime.Now);
            
             System.Xml.Serialization.XmlSerializer writer = new System.Xml.Serialization.XmlSerializer(typeof(FileItem));
-            var path = @"\garbage.xml";
-            if (fileName=="dataSet1")
-            {
-                 path = @"\dataset1.xml";
-            }
-            else if(fileName == "dataSet2")
-            {
-                path = @"\dataset2.xml";
-            }
-            else if (fileName == "dataSet3")
-            {
-                path = @"\dataset3.xml";
-            }
-            else if (fileName == "dataSet4")
-            {
-                path = @"\dataset4.xml";
-            }
+            var path = fileName;
+           
 
             System.Xml.Serialization.XmlSerializer serializer =  new System.Xml.Serialization.XmlSerializer(typeof(CollectionFileItems));
             System.IO.StreamReader reader = new System.IO.StreamReader(path);
@@ -49,7 +34,7 @@ namespace Receiver
             foreach (FileItem fi in hc.fileItems)
             {
                  difference = Math.Abs(fi.Rp.ReceiverValue - receiverProperty.ReceiverValue);
-                if (difference > 0.02)
+                 if (difference > fi.Rp.ReceiverValue*0.02)
                     return;
             }
 

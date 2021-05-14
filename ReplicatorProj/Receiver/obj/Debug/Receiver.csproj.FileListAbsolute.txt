@@ -1,0 +1,6 @@
+E:\Tea\fax\PrivatniCasoviFtn\Emilija res\ReplicatorProject\ReplicatorProj\Receiver\bin\Debug\Receiver.dll
+E:\Tea\fax\PrivatniCasoviFtn\Emilija res\ReplicatorProject\ReplicatorProj\Receiver\bin\Debug\Receiver.pdb
+E:\Tea\fax\PrivatniCasoviFtn\Emilija res\ReplicatorProject\ReplicatorProj\Receiver\obj\Debug\Receiver.csprojAssemblyReference.cache
+E:\Tea\fax\PrivatniCasoviFtn\Emilija res\ReplicatorProject\ReplicatorProj\Receiver\obj\Debug\Receiver.csproj.CoreCompileInputs.cache
+E:\Tea\fax\PrivatniCasoviFtn\Emilija res\ReplicatorProject\ReplicatorProj\Receiver\obj\Debug\Receiver.dll
+E:\Tea\fax\PrivatniCasoviFtn\Emilija res\ReplicatorProject\ReplicatorProj\Receiver\obj\Debug\Receiver.pdb
