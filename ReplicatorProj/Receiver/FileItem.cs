@@ -8,8 +8,8 @@ namespace Receiver
 {
     public class FileItem
     {
-         public ReceiverProperty rp;
-         public DateTime dateTime;
+         public ReceiverProperty rp = new ReceiverProperty();
+         public DateTime dateTime = new DateTime();
         
     }
 }

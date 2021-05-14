@@ -29,8 +29,9 @@ namespace Receiver
     public struct ReceiverProperty
     {
         public CODE Code;
-        public double ReceiverValue;
-        public ReceiverProperty(CODE code, double receiverValue)
+        public int ReceiverValue;
+
+        public ReceiverProperty(CODE code, int receiverValue)
         {
             Code = code;
             ReceiverValue = receiverValue;
@@ -64,17 +65,17 @@ namespace Receiver
             collection3Count = 0;
             collection4Count = 0;
 
-            reader1 = new Reader(@"E:\Tea\fax\PrivatniCasoviFtn\Emilija res\ReplicatorProject\ReplicatorProj\Receiver\database1.xml");
-            reader2= new Reader(@"E:\Tea\fax\PrivatniCasoviFtn\Emilija res\ReplicatorProject\ReplicatorProj\Receiver\database2.xml");
-            reader3= new Reader(@"E:\Tea\fax\PrivatniCasoviFtn\Emilija res\ReplicatorProject\ReplicatorProj\Receiver\database3.xml");
-            reader4= new Reader(@"E:\Tea\fax\PrivatniCasoviFtn\Emilija res\ReplicatorProject\ReplicatorProj\Receiver\database4.xml");
+            reader1 = new Reader(@"C:\Users\Nebojsa\Desktop\emilijaReplicator\ReplicatorProject\ReplicatorProj\Receiver\database1.txt");
+            reader2= new Reader(@"C:\Users\Nebojsa\Desktop\emilijaReplicator\ReplicatorProject\ReplicatorProj\Receiver\database2.txt");
+            reader3= new Reader(@"C:\Users\Nebojsa\Desktop\emilijaReplicator\ReplicatorProject\ReplicatorProj\Receiver\database3.txt");
+            reader4= new Reader(@"C:\Users\Nebojsa\Desktop\emilijaReplicator\ReplicatorProject\ReplicatorProj\Receiver\database4.txt");
 
             thread = new Thread(ReadersRead);
             thread.Start();
 
         }
 
-        public void Send(string code, double value)
+        public void Send(string code, int value)
         {
 
             CODE c;
@@ -82,28 +83,21 @@ namespace Receiver
             ReceiverProperty rp = new ReceiverProperty(c, value);
             if (c == CODE.CODE_ANALOG || c == CODE.CODE_DIGITAL)
             {
-                int a=collectionDescription1.Collection.properties.Length;
                 collectionDescription1.Collection.properties[collection1Count] = rp;
                 collection1Count++;
             }
             else if (c == CODE.CODE_CUSTOM || c == CODE.CODE_LIMITSET)
             {
-                int a = collectionDescription1.Collection.properties.Length;
-                //collectionDescription2.Collection.properties.
                 collectionDescription2.Collection.properties[collection2Count] = rp;
                 collection2Count++;
             }
             else if (c == CODE.CODE_SINGLENOE || c == CODE.CODE_MULTIPLENODE)
             {
-                int a = collectionDescription1.Collection.properties.Length;
-
                 collectionDescription3.Collection.properties[collection3Count] = rp;
                 collection3Count++;
             }
             else if (c == CODE.CODE_CONSUMER || c == CODE.CODE_SOURCE)
             {
-                int a = collectionDescription1.Collection.properties.Length; //dodao za debagovanje 
-
                 collectionDescription4.Collection.properties[collection4Count] = rp;
                 collection4Count++;
             }
