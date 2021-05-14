@@ -65,10 +65,10 @@ namespace Receiver
             collection3Count = 0;
             collection4Count = 0;
 
-            reader1 = new Reader(@"E:\Tea\fax\PrivatniCasoviFtn\Emilija res\ReplicatorProject\ReplicatorProj\Receiver\database1.txt");
-            reader2= new Reader(@"E:\Tea\fax\PrivatniCasoviFtn\Emilija res\ReplicatorProject\ReplicatorProj\Receiver\database2.txt");
-            reader3= new Reader(@"E:\Tea\fax\PrivatniCasoviFtn\Emilija res\ReplicatorProject\ReplicatorProj\Receiver\database3.txt");
-            reader4= new Reader(@"E:\Tea\fax\PrivatniCasoviFtn\Emilija res\ReplicatorProject\ReplicatorProj\Receiver\database4.txt");
+            reader1 = new Reader(@"BASE\database1.txt");
+            reader2= new Reader(@"BASE\database2.txt");
+            reader3= new Reader(@"BASE\database3.txt");
+            reader4= new Reader(@"BASE\database4.txt");
 
             thread = new Thread(ReadersRead);
             thread.Start();

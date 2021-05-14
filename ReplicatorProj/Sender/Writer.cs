@@ -10,11 +10,11 @@ namespace Sender
 {
 	public class Writer
 	{
-		//Mutex mutex;
 		ReplicatorSender replicatoSender;
 		int code, value;
 		Random rand1;
 		Random rand2;
+		Logger l = new Logger(@"LOGGS/writerLogs.txt");
 
 		public Writer()
 		{
@@ -30,7 +30,10 @@ namespace Sender
 				code = rand1.Next(0, 7);
 				value = rand2.Next();
 				replicatoSender.ReplicatorSenderRecive((CODE)code, value);
-				//Console.WriteLine($"Posao : {(CODE)code} , val: {value}");
+
+				l.LoggSentCodes((CODE)code, value, DateTime.Now, Thread.CurrentThread.ManagedThreadId);
+
+				Console.WriteLine($"Poslao THREAD ID-> {Thread.CurrentThread.ManagedThreadId} : {(CODE)code} , value: {value}");
 				Thread.Sleep(2000);
 			}
 

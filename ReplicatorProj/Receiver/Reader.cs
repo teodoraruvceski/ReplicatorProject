@@ -15,11 +15,12 @@ namespace Receiver
     public class Reader
     {
         string fileName;
-
+		Logger l;
 
 		public Reader(string fileName)
         {
             this.fileName = fileName;
+			l = new Logger(@"LOGGS\readerLogs");
         }
 		
 		public void WriteInFile(ReceiverProperty receiverProperty)
@@ -34,6 +35,7 @@ namespace Receiver
 				using(StreamWriter sw = new StreamWriter(fileName, true))
 				{
 					sw.WriteLine(DateTime.Now.ToString() + ";" + receiverProperty.Code.ToString() + ";" + receiverProperty.ReceiverValue.ToString());
+					l.LoggStoredCodes(receiverProperty.Code, receiverProperty.ReceiverValue, DateTime.Now);
 					return;
 				}
 			}
@@ -68,9 +70,8 @@ namespace Receiver
 			using (StreamWriter sw = new StreamWriter(fileName, true))
 			{
 				sw.WriteLine(DateTime.Now.ToString() + ";" + receiverProperty.Code.ToString() + ";" + receiverProperty.ReceiverValue.ToString());
+				l.LoggStoredCodes(receiverProperty.Code, receiverProperty.ReceiverValue,DateTime.Now);
 			}
-			
-
 		}
 
 	}

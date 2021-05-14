@@ -16,7 +16,7 @@ namespace Sender
 		{
 			Writer writer = new Writer();
 			List<Thread> threads = new List<Thread>();
-
+			Logger l = new Logger(@"LOGGS/writerLogs.txt");
 			int ret;
 			int Meni()
 			{
@@ -40,38 +40,30 @@ namespace Sender
 			}
 
 
+
 			while (true)
 			{
-				while (true)
+				Console.WriteLine("Pritisni dugme za MENU");
+				if (threads.Count == 0)
 				{
-					Console.WriteLine("Pritisni dugme za MENU");
-					if (threads.Count == 0)
-					{
-						Console.WriteLine("Program nema upaljenih writera.");
-					}
-					Console.ReadLine();
-					break;
-
-					/*if (Console.KeyAvailable)
-					{
-						if (Console.ReadKey().Key == ConsoleKey.Escape)
-							break;
-					}*/
-					//Task task = Task.Factory.StartNew(() => w.Send());
-
+					Console.WriteLine("Program nema upaljenih writera.");
 				}
+				Console.ReadLine();
+		
 				ret = Meni();
 				if (ret == 1)
 				{
 
 					threads.Add(new Thread(writer.WriterSend));
 					threads[threads.Count - 1].Start();
-					//Task task = Task.Factory.StartNew(() => writers[writers.Count() - 1].Send());
+					Console.WriteLine($"Upaljeno {threads.Count} writera.");
 				}
 				else if (ret == 2)
 				{
 					threads[threads.Count - 1].Abort();
 					threads.RemoveAt(threads.Count - 1);
+					Console.WriteLine($"Upaljeno {threads.Count} writera.");
+
 				}
 				else if (ret == 3)
 				{
@@ -85,8 +77,11 @@ namespace Sender
 					Console.WriteLine("Nepostojeca komanda.");
 				}
 			}
-
-
+			foreach(Thread t in threads)
+			{
+				t.Abort();
+			}
+			Console.WriteLine("Gasenje");
 		}
 	}
 }

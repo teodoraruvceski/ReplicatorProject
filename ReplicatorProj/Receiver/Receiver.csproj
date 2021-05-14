@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FileItem.cs" />
+    <Compile Include="Logger.cs" />
     <Compile Include="Reader.cs" />
     <Compile Include="ReplicatorReceiver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

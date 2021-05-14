@@ -41,12 +41,10 @@ namespace Sender
 				{
 					while (reciverProp.Count <= 0)
 					{
-						Console.WriteLine("Nema sta da se salje");
 						ewh.WaitOne();
 					}
 					ReceiverProperty rp = reciverProp.Dequeue();
 					replicatorRec.Send(rp.Code.ToString(), rp.ReceiverValue);
-					Console.WriteLine("Poslatio.");
 					Thread.Sleep(1000);
 
 				}
