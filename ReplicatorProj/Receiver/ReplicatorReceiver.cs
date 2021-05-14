@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Receiver
 {
-    public enum CODE { CODE_ANALOG, CODE_DIGITAL, CODE_CUSTOM, CODE_LIMITSET, CODE_SINGLENOE, CODE_MULTIPLENODE, CODE_CONSUMER, CODE_SOURCE }
+    public enum CODE { CODE_ANALOG, CODE_DIGITAL, CODE_CUSTOM, CODE_LIMITSET, CODE_SINGLENODE, CODE_MULTIPLENODE, CODE_CONSUMER, CODE_SOURCE }
     public struct CollectionDescription
     {
         public int Id;
@@ -65,10 +65,10 @@ namespace Receiver
             collection3Count = 0;
             collection4Count = 0;
 
-            reader1 = new Reader(@"C:\Users\Nebojsa\Desktop\emilijaReplicator\ReplicatorProject\ReplicatorProj\Receiver\database1.txt");
-            reader2= new Reader(@"C:\Users\Nebojsa\Desktop\emilijaReplicator\ReplicatorProject\ReplicatorProj\Receiver\database2.txt");
-            reader3= new Reader(@"C:\Users\Nebojsa\Desktop\emilijaReplicator\ReplicatorProject\ReplicatorProj\Receiver\database3.txt");
-            reader4= new Reader(@"C:\Users\Nebojsa\Desktop\emilijaReplicator\ReplicatorProject\ReplicatorProj\Receiver\database4.txt");
+            reader1 = new Reader(@"E:\Tea\fax\PrivatniCasoviFtn\Emilija res\ReplicatorProject\ReplicatorProj\Receiver\database1.txt");
+            reader2= new Reader(@"E:\Tea\fax\PrivatniCasoviFtn\Emilija res\ReplicatorProject\ReplicatorProj\Receiver\database2.txt");
+            reader3= new Reader(@"E:\Tea\fax\PrivatniCasoviFtn\Emilija res\ReplicatorProject\ReplicatorProj\Receiver\database3.txt");
+            reader4= new Reader(@"E:\Tea\fax\PrivatniCasoviFtn\Emilija res\ReplicatorProject\ReplicatorProj\Receiver\database4.txt");
 
             thread = new Thread(ReadersRead);
             thread.Start();
@@ -91,7 +91,7 @@ namespace Receiver
                 collectionDescription2.Collection.properties[collection2Count] = rp;
                 collection2Count++;
             }
-            else if (c == CODE.CODE_SINGLENOE || c == CODE.CODE_MULTIPLENODE)
+            else if (c == CODE.CODE_SINGLENODE || c == CODE.CODE_MULTIPLENODE)
             {
                 collectionDescription3.Collection.properties[collection3Count] = rp;
                 collection3Count++;
