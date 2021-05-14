@@ -51,6 +51,7 @@ namespace Receiver
         Reader reader3;
         Reader reader4;
 
+        Thread thread;
         public ReplicatorReceiver()
         {
             collectionDescription1 = new CollectionDescription(1,1);
@@ -63,10 +64,14 @@ namespace Receiver
             collection3Count = 0;
             collection4Count = 0;
 
-            reader1 = new Reader(@"C:\Users\Nebojsa\Desktop\emilijaReplicator\ReplicatorProject\ReplicatorProj\Receiver\dataset1.xml");
-            reader2= new Reader(@"C:\Users\Nebojsa\Desktop\emilijaReplicator\ReplicatorProject\ReplicatorProj\Receiver\dataset2.xml");
-            reader3= new Reader(@"C:\Users\Nebojsa\Desktop\emilijaReplicator\ReplicatorProject\ReplicatorProj\Receiver\dataset3.xml");
-            reader4= new Reader(@"C:\Users\Nebojsa\Desktop\emilijaReplicator\ReplicatorProject\ReplicatorProj\Receiver\dataset4.xml");
+            reader1 = new Reader(@"E:\Tea\fax\PrivatniCasoviFtn\Emilija res\ReplicatorProject\ReplicatorProj\Receiver\database1.xml");
+            reader2= new Reader(@"E:\Tea\fax\PrivatniCasoviFtn\Emilija res\ReplicatorProject\ReplicatorProj\Receiver\database2.xml");
+            reader3= new Reader(@"E:\Tea\fax\PrivatniCasoviFtn\Emilija res\ReplicatorProject\ReplicatorProj\Receiver\database3.xml");
+            reader4= new Reader(@"E:\Tea\fax\PrivatniCasoviFtn\Emilija res\ReplicatorProject\ReplicatorProj\Receiver\database4.xml");
+
+            thread = new Thread(ReadersRead);
+            thread.Start();
+
         }
 
         public void Send(string code, double value)
@@ -104,6 +109,7 @@ namespace Receiver
             }
 
 
+        
         }
         private ReceiverProperty[] RemoveFirst(ReceiverProperty[] param)
         {
@@ -130,7 +136,7 @@ namespace Receiver
                     collection2Count--;
                 }
 
-                if (collection2Count > 0)
+                if (collection3Count > 0)
                 {
                     reader3.WriteInFile(collectionDescription3.Collection.properties[0]);
                     collectionDescription3.Collection.properties = RemoveFirst(collectionDescription3.Collection.properties);
@@ -138,7 +144,7 @@ namespace Receiver
                 }
                    
 
-                if (collection2Count > 0)
+                if (collection4Count > 0)
                 {
                     reader4.WriteInFile(collectionDescription4.Collection.properties[0]);
                     collectionDescription4.Collection.properties = RemoveFirst(collectionDescription4.Collection.properties);

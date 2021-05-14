@@ -6,18 +6,10 @@ using System.Threading.Tasks;
 
 namespace Receiver
 {
-    class FileItem
+    public class FileItem
     {
-         ReceiverProperty rp;
-        DateTime dateTime;
-
-        public FileItem(ReceiverProperty rp, DateTime dateTime)
-        {
-            this.Rp = rp;
-            this.DateTime = dateTime;
-        }
-
-        public DateTime DateTime { get => dateTime; set => dateTime = value; }
-        internal ReceiverProperty Rp { get => rp; set => rp = value; }
+         public ReceiverProperty rp;
+         public DateTime dateTime;
+        
     }
 }

@@ -41,7 +41,7 @@ namespace Sender
 				{
 					while (reciverProp.Count <= 0)
 					{
-						Console.WriteLine("Nema sta da se silje");
+						Console.WriteLine("Nema sta da se salje");
 						ewh.WaitOne();
 					}
 					ReceiverProperty rp = reciverProp.Dequeue();

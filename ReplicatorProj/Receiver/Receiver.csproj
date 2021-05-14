@@ -46,11 +46,5 @@
     <Compile Include="ReplicatorReceiver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="dataset1.xml" />
-    <Content Include="dataset2.xml" />
-    <Content Include="dataset3.xml" />
-    <Content Include="dataset4.xml" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

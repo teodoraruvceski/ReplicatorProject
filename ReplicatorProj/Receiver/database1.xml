@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FileItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <rp>
+    <Code>CODE_DIGITAL</Code>
+    <ReceiverValue>506297017</ReceiverValue>
+  </rp>
+  <dateTime>2021-05-14T11:56:44.9880937+02:00</dateTime>
+</FileItem>
