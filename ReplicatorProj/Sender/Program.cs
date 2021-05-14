@@ -14,7 +14,6 @@ namespace Sender
 			Writer writer = new Writer();
 			List<Thread> threads = new List<Thread>();
 
-			int numberWriters = 0;
 			int ret;
 			int Meni()
 			{
@@ -43,7 +42,7 @@ namespace Sender
 				while (true)
 				{
 					Console.WriteLine("Pritisni dugme za MENU");
-					if (numberWriters == 0)
+					if (threads.Count == 0)
 					{
 						Console.WriteLine("Program nema upaljenih writera.");
 					}
@@ -61,6 +60,7 @@ namespace Sender
 				ret = Meni();
 				if (ret == 1)
 				{
+
 					threads.Add(new Thread(writer.WriterSend));
 					threads[threads.Count - 1].Start();
 					//Task task = Task.Factory.StartNew(() => writers[writers.Count() - 1].Send());

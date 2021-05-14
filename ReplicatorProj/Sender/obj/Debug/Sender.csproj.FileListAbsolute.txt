@@ -8,3 +8,13 @@ E:\Tea\fax\PrivatniCasoviFtn\Emilija res\ReplicatorProject\ReplicatorProj\Sender
 E:\Tea\fax\PrivatniCasoviFtn\Emilija res\ReplicatorProject\ReplicatorProj\Sender\obj\Debug\Sender.csproj.CopyComplete
 E:\Tea\fax\PrivatniCasoviFtn\Emilija res\ReplicatorProject\ReplicatorProj\Sender\obj\Debug\Sender.exe
 E:\Tea\fax\PrivatniCasoviFtn\Emilija res\ReplicatorProject\ReplicatorProj\Sender\obj\Debug\Sender.pdb
+C:\Users\Nebojsa\Desktop\emilijaReplicator\ReplicatorProject\ReplicatorProj\Sender\bin\Debug\Sender.exe.config
+C:\Users\Nebojsa\Desktop\emilijaReplicator\ReplicatorProject\ReplicatorProj\Sender\bin\Debug\Sender.exe
+C:\Users\Nebojsa\Desktop\emilijaReplicator\ReplicatorProject\ReplicatorProj\Sender\bin\Debug\Sender.pdb
+C:\Users\Nebojsa\Desktop\emilijaReplicator\ReplicatorProject\ReplicatorProj\Sender\bin\Debug\Receiver.dll
+C:\Users\Nebojsa\Desktop\emilijaReplicator\ReplicatorProject\ReplicatorProj\Sender\bin\Debug\Receiver.pdb
+C:\Users\Nebojsa\Desktop\emilijaReplicator\ReplicatorProject\ReplicatorProj\Sender\obj\Debug\Sender.csprojAssemblyReference.cache
+C:\Users\Nebojsa\Desktop\emilijaReplicator\ReplicatorProject\ReplicatorProj\Sender\obj\Debug\Sender.csproj.CoreCompileInputs.cache
+C:\Users\Nebojsa\Desktop\emilijaReplicator\ReplicatorProject\ReplicatorProj\Sender\obj\Debug\Sender.csproj.CopyComplete
+C:\Users\Nebojsa\Desktop\emilijaReplicator\ReplicatorProject\ReplicatorProj\Sender\obj\Debug\Sender.exe
+C:\Users\Nebojsa\Desktop\emilijaReplicator\ReplicatorProject\ReplicatorProj\Sender\obj\Debug\Sender.pdb

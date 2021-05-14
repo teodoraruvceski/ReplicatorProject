@@ -30,7 +30,7 @@ namespace Sender
 				code = rand1.Next(0, 7);
 				value = rand2.Next();
 				replicatoSender.ReplicatorSenderRecive((CODE)code, value);
-
+				//Console.WriteLine($"Posao : {(CODE)code} , val: {value}");
 				Thread.Sleep(2000);
 			}
 

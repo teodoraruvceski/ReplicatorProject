@@ -12,13 +12,15 @@ namespace Sender
 	public class ReplicatorSender
 	{
 		Mutex mutex;
-		List<ReceiverProperty> reciverProp;
+		Queue<ReceiverProperty> reciverProp;
 		ReplicatorReceiver replicatorRec;
 		Thread thread;
+		EventWaitHandle ewh = new EventWaitHandle(false, EventResetMode.ManualReset);
+
 
 		public ReplicatorSender()
 		{
-			reciverProp = new List<ReceiverProperty>();
+			reciverProp = new Queue<ReceiverProperty>();
 			mutex = new Mutex();
 			replicatorRec = new ReplicatorReceiver();
 			thread = new Thread(ReplicatorSenerSend);
@@ -27,21 +29,27 @@ namespace Sender
 
 		public void ReplicatorSenderRecive(CODE code ,int value)
 		{
-			reciverProp.Add(new ReceiverProperty(code, value));
-			Monitor.Pulse(thread);
+			reciverProp.Enqueue(new ReceiverProperty(code, value));
+			ewh.Set();
 		}
 
 		public void ReplicatorSenerSend()
 		{
 			lock (mutex)
 			{
-				while (reciverProp.Count <= 0)
+				while (true)
 				{
-					mutex.WaitOne();
-				}
+					while (reciverProp.Count <= 0)
+					{
+						Console.WriteLine("Nema sta da se silje");
+						ewh.WaitOne();
+					}
+					ReceiverProperty rp = reciverProp.Dequeue();
+					replicatorRec.Send(rp.Code.ToString(), rp.ReceiverValue);
+					Console.WriteLine("Poslatio.");
+					Thread.Sleep(1000);
 
-				replicatorRec.Send(reciverProp[reciverProp.Count - 1].Code.ToString(), reciverProp[reciverProp.Count - 1].ReceiverValue);
-				Thread.Sleep(1000);
+				}
 			}
 			
 		}

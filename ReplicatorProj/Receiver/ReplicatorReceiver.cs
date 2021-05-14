@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Mail;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Receiver
@@ -18,7 +19,7 @@ namespace Receiver
             Id = id;
             DataSet = dataSet;
             Collection = new HistoricalCollection();
-            Collection.properties = new ReceiverProperty[] { };
+            Collection.properties = new ReceiverProperty[100];
         }
     }
     public struct HistoricalCollection
@@ -62,10 +63,10 @@ namespace Receiver
             collection3Count = 0;
             collection4Count = 0;
 
-            reader1 = new Reader(@"\dataset1.xml");
-            reader2= new Reader(@"\dataset2.xml");
-            reader3= new Reader(@"\dataset3.xml");
-            reader4= new Reader(@"\dataset4.xml");
+            reader1 = new Reader(@"C:\Users\Nebojsa\Desktop\emilijaReplicator\ReplicatorProject\ReplicatorProj\Receiver\dataset1.xml");
+            reader2= new Reader(@"C:\Users\Nebojsa\Desktop\emilijaReplicator\ReplicatorProject\ReplicatorProj\Receiver\dataset2.xml");
+            reader3= new Reader(@"C:\Users\Nebojsa\Desktop\emilijaReplicator\ReplicatorProject\ReplicatorProj\Receiver\dataset3.xml");
+            reader4= new Reader(@"C:\Users\Nebojsa\Desktop\emilijaReplicator\ReplicatorProject\ReplicatorProj\Receiver\dataset4.xml");
         }
 
         public void Send(string code, double value)
@@ -76,21 +77,28 @@ namespace Receiver
             ReceiverProperty rp = new ReceiverProperty(c, value);
             if (c == CODE.CODE_ANALOG || c == CODE.CODE_DIGITAL)
             {
+                int a=collectionDescription1.Collection.properties.Length;
                 collectionDescription1.Collection.properties[collection1Count] = rp;
                 collection1Count++;
             }
             else if (c == CODE.CODE_CUSTOM || c == CODE.CODE_LIMITSET)
             {
+                int a = collectionDescription1.Collection.properties.Length;
+                //collectionDescription2.Collection.properties.
                 collectionDescription2.Collection.properties[collection2Count] = rp;
                 collection2Count++;
             }
             else if (c == CODE.CODE_SINGLENOE || c == CODE.CODE_MULTIPLENODE)
             {
+                int a = collectionDescription1.Collection.properties.Length;
+
                 collectionDescription3.Collection.properties[collection3Count] = rp;
                 collection3Count++;
             }
             else if (c == CODE.CODE_CONSUMER || c == CODE.CODE_SOURCE)
             {
+                int a = collectionDescription1.Collection.properties.Length; //dodao za debagovanje 
+
                 collectionDescription4.Collection.properties[collection4Count] = rp;
                 collection4Count++;
             }
@@ -136,8 +144,8 @@ namespace Receiver
                     collectionDescription4.Collection.properties = RemoveFirst(collectionDescription4.Collection.properties);
                     collection4Count--;
                 }
-                    
 
+                Thread.Sleep(1000);
             }
         }
     }
