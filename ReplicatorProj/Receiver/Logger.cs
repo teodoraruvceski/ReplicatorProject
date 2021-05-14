@@ -44,5 +44,15 @@ namespace Receiver
 
 			}
 		}
+		public void LoggActivity(string activity)
+		{
+			using (sw = new StreamWriter(fileName, true))
+			{
+
+				sw.WriteLine("\n"+activity+" "+DateTime.Now);
+				sw.Close();
+
+			}
+		}
 	}
 }

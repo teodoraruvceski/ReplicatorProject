@@ -25,9 +25,8 @@ namespace Receiver
 		
 		public void WriteInFile(ReceiverProperty receiverProperty)
 		{
-			FileItem fi = new FileItem();
 			string str;
-			string[] niz=new string[10];
+			string[] niz;
 			int difference;
 
 			if (receiverProperty.Code == CODE.CODE_DIGITAL)

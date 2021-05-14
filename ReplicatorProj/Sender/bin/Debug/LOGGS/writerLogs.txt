@@ -1,128 +1,277 @@
 
-5/14/2021 7:13:56 PM Writer turned on
 
-5/14/2021 7:14:19 PM Writer id: 5 sent:   CODE_CUSTOM Value:  1520838001
+Upaljen novi writer. Trenutno writera -> 1
 
-5/14/2021 7:14:56 PM Writer turned on
+5/14/2021 8:03:58 PM Writer id: 5 sent:   CODE_SINGLENODE Value:  1400135212
 
-5/14/2021 7:19:02 PM Writer turned on
+Upaljen novi writer. Trenutno writera -> 2
 
-5/14/2021 7:19:37 PM Writer turned on
+5/14/2021 8:04:00 PM Writer id: 6 sent:   CODE_DIGITAL Value:  339709119
 
-5/14/2021 7:20:47 PM Writer turned on
+5/14/2021 8:04:00 PM Writer id: 5 sent:   CODE_SINGLENODE Value:  1318583947
 
-5/14/2021 7:22:24 PM Writer turned on
+5/14/2021 8:04:02 PM Writer id: 6 sent:   CODE_CONSUMER Value:  2036781637
 
-5/14/2021 7:23:18 PM Writer id: 5 sent:   CODE_CUSTOM Value:  736399639
+Upaljen novi writer. Trenutno writera -> 3
 
-5/14/2021 7:23:20 PM Writer id: 5 sent:   CODE_CONSUMER Value:  2085562528
+5/14/2021 8:04:02 PM Writer id: 7 sent:   CODE_CUSTOM Value:  896244270
 
-5/14/2021 7:23:22 PM Writer id: 5 sent:   CODE_MULTIPLENODE Value:  1581445420
+5/14/2021 8:04:02 PM Writer id: 5 sent:   CODE_DIGITAL Value:  540006204
 
-5/14/2021 7:23:24 PM Writer id: 5 sent:   CODE_DIGITAL Value:  319920682
+Upaljen novi writer. Trenutno writera -> 4
 
-5/14/2021 7:23:26 PM Writer id: 5 sent:   CODE_CUSTOM Value:  906550405
+5/14/2021 8:04:04 PM Writer id: 8 sent:   CODE_SINGLENODE Value:  1437748138
 
-5/14/2021 7:23:28 PM Writer id: 5 sent:   CODE_DIGITAL Value:  344702097
+5/14/2021 8:04:04 PM Writer id: 6 sent:   CODE_MULTIPLENODE Value:  1733317793
 
-5/14/2021 7:26:52 PM Writer id: 5 sent:   CODE_SINGLENODE Value:  1461976602
+5/14/2021 8:04:04 PM Writer id: 7 sent:   CODE_ANALOG Value:  132148282
 
-5/14/2021 7:26:54 PM Writer id: 5 sent:   CODE_MULTIPLENODE Value:  1816747228
+5/14/2021 8:04:04 PM Writer id: 5 sent:   CODE_SINGLENODE Value:  1348939912
 
-5/14/2021 7:26:56 PM Writer id: 5 sent:   CODE_CUSTOM Value:  784360799
+Upaljen novi writer. Trenutno writera -> 5
 
-5/14/2021 7:35:01 PM Writer id: 5 sent:   CODE_CONSUMER Value:  2142018499
+5/14/2021 8:11:52 PM Writer id: 5 sent:   CODE_LIMITSET Value:  1039956651
 
-5/14/2021 7:35:03 PM Writer id: 5 sent:   CODE_DIGITAL Value:  382177598
+5/14/2021 8:11:53 PM Writer id: 6 sent:   CODE_ANALOG Value:  178119278
 
-5/14/2021 7:35:04 PM Writer id: 6 sent:   CODE_CONSUMER Value:  2008505678
+5/14/2021 8:11:55 PM Writer id: 5 sent:   CODE_SINGLENODE Value:  1234951454
 
-5/14/2021 7:35:05 PM Writer id: 5 sent:   CODE_DIGITAL Value:  469920532
+5/14/2021 8:11:55 PM Writer id: 6 sent:   CODE_DIGITAL Value:  309806364
 
-5/14/2021 7:35:06 PM Writer id: 6 sent:   CODE_CUSTOM Value:  902459931
+5/14/2021 8:11:57 PM Writer id: 5 sent:   CODE_SINGLENODE Value:  1493135570
 
-5/14/2021 7:35:07 PM Writer id: 5 sent:   CODE_DIGITAL Value:  417296232
+5/14/2021 8:12:36 PM Writer id: 5 sent:   CODE_DIGITAL Value:  350523983
 
-5/14/2021 7:35:08 PM Writer id: 6 sent:   CODE_CONSUMER Value:  1849231027
+5/14/2021 8:12:37 PM Writer id: 6 sent:   CODE_LIMITSET Value:  1184271720
 
-5/14/2021 7:35:09 PM Writer id: 5 sent:   CODE_DIGITAL Value:  410584789
+5/14/2021 8:12:38 PM Writer id: 7 sent:   CODE_CONSUMER Value:  2099069835
 
-5/14/2021 7:35:10 PM Writer id: 6 sent:   CODE_CONSUMER Value:  1881125243
+5/14/2021 8:12:38 PM Writer id: 8 sent:   CODE_CUSTOM Value:  878385506
 
-5/14/2021 7:35:11 PM Writer id: 5 sent:   CODE_LIMITSET Value:  1010657934
+5/14/2021 8:12:38 PM Writer id: 5 sent:   CODE_DIGITAL Value:  350151266
 
-5/14/2021 7:35:12 PM Writer id: 6 sent:   CODE_CONSUMER Value:  1948969135
+5/14/2021 8:12:39 PM Writer id: 9 sent:   CODE_MULTIPLENODE Value:  1610694084
 
-5/14/2021 7:35:13 PM Writer id: 5 sent:   CODE_DIGITAL Value:  317149931
+5/14/2021 8:12:39 PM Writer id: 6 sent:   CODE_ANALOG Value:  289743731
 
-5/14/2021 7:35:14 PM Writer id: 6 sent:   CODE_LIMITSET Value:  1141993029
+5/14/2021 8:12:40 PM Writer id: 7 sent:   CODE_CUSTOM Value:  761239858
 
-5/14/2021 7:35:15 PM Writer id: 5 sent:   CODE_CONSUMER Value:  1933288283
+5/14/2021 8:12:40 PM Writer id: 8 sent:   CODE_LIMITSET Value:  1176730861
 
-5/14/2021 7:35:16 PM Writer id: 6 sent:   CODE_MULTIPLENODE Value:  1724037949
+5/14/2021 8:12:40 PM Writer id: 5 sent:   CODE_ANALOG Value:  166793630
 
-5/14/2021 7:36:16 PM Writer id: 5 sent:   CODE_ANALOG Value:  120984056
+5/14/2021 8:12:40 PM Writer id: 10 sent:   CODE_MULTIPLENODE Value:  1565088044
 
-5/14/2021 7:36:18 PM Writer id: 6 sent:   CODE_MULTIPLENODE Value:  1545359278
+5/14/2021 8:12:41 PM Writer id: 9 sent:   CODE_SINGLENODE Value:  1513745915
 
-5/14/2021 7:36:18 PM Writer id: 5 sent:   CODE_SINGLENODE Value:  1361509631
+5/14/2021 8:12:41 PM Writer id: 6 sent:   CODE_DIGITAL Value:  503732388
 
-5/14/2021 7:36:19 PM Writer id: 7 sent:   CODE_MULTIPLENODE Value:  1784919886
+5/14/2021 8:12:41 PM Writer id: 11 sent:   CODE_SINGLENODE Value:  1305864931
 
-5/14/2021 7:36:20 PM Writer id: 6 sent:   CODE_CONSUMER Value:  2022903337
+5/14/2021 8:12:42 PM Writer id: 7 sent:   CODE_LIMITSET Value:  1107978585
 
-5/14/2021 7:36:20 PM Writer id: 5 sent:   CODE_ANALOG Value:  166362291
+5/14/2021 8:12:42 PM Writer id: 12 sent:   CODE_CONSUMER Value:  1896754794
 
-5/14/2021 7:36:21 PM Writer id: 8 sent:   CODE_DIGITAL Value:  400019548
+5/14/2021 8:12:42 PM Writer id: 8 sent:   CODE_CUSTOM Value:  779703882
 
-5/14/2021 7:36:21 PM Writer id: 7 sent:   CODE_LIMITSET Value:  1120282511
+5/14/2021 8:12:42 PM Writer id: 5 sent:   CODE_DIGITAL Value:  384212603
 
-5/14/2021 7:36:22 PM Writer id: 6 sent:   CODE_CUSTOM Value:  799633318
+5/14/2021 8:12:42 PM Writer id: 10 sent:   CODE_DIGITAL Value:  428243338
 
-5/14/2021 7:36:22 PM Writer id: 5 sent:   CODE_CUSTOM Value:  691540078
+5/14/2021 8:12:43 PM Writer id: 9 sent:   CODE_ANALOG Value:  58517253
 
-5/14/2021 7:36:23 PM Writer id: 8 sent:   CODE_LIMITSET Value:  1086888474
+5/14/2021 8:12:43 PM Writer id: 6 sent:   CODE_MULTIPLENODE Value:  1786434840
 
-5/14/2021 7:36:23 PM Writer id: 7 sent:   CODE_SINGLENODE Value:  1295497724
+5/14/2021 8:12:43 PM Writer id: 11 sent:   CODE_ANALOG Value:  41781269
 
-5/14/2021 7:36:24 PM Writer id: 6 sent:   CODE_LIMITSET Value:  1147100749
+5/14/2021 8:12:44 PM Writer id: 7 sent:   CODE_DIGITAL Value:  410823429
 
-5/14/2021 7:36:24 PM Writer id: 5 sent:   CODE_LIMITSET Value:  1205311556
+5/14/2021 8:12:44 PM Writer id: 12 sent:   CODE_DIGITAL Value:  600007215
 
-5/14/2021 7:36:25 PM Writer id: 8 sent:   CODE_SINGLENODE Value:  1254970262
+5/14/2021 8:12:44 PM Writer id: 8 sent:   CODE_CUSTOM Value:  835751846
 
-5/14/2021 7:36:25 PM Writer id: 7 sent:   CODE_LIMITSET Value:  1121804450
+5/14/2021 8:12:44 PM Writer id: 5 sent:   CODE_CUSTOM Value:  873806893
 
-5/14/2021 7:36:26 PM Writer id: 6 sent:   CODE_LIMITSET Value:  1163137851
+5/14/2021 8:12:44 PM Writer id: 10 sent:   CODE_LIMITSET Value:  1173199763
 
-5/14/2021 7:36:26 PM Writer id: 5 sent:   CODE_DIGITAL Value:  610114175
+5/14/2021 8:12:45 PM Writer id: 9 sent:   CODE_CONSUMER Value:  2146184744
 
-5/14/2021 7:36:27 PM Writer id: 8 sent:   CODE_DIGITAL Value:  489272583
+5/14/2021 8:12:45 PM Writer id: 6 sent:   CODE_LIMITSET Value:  1180402366
 
-5/14/2021 7:36:27 PM Writer id: 7 sent:   CODE_SINGLENODE Value:  1454824426
+5/14/2021 8:12:45 PM Writer id: 13 sent:   CODE_MULTIPLENODE Value:  1619697953
 
-5/14/2021 7:36:28 PM Writer id: 6 sent:   CODE_MULTIPLENODE Value:  1721768627
+5/14/2021 8:12:46 PM Writer id: 7 sent:   CODE_CUSTOM Value:  854939919
 
-5/14/2021 7:36:28 PM Writer id: 5 sent:   CODE_CUSTOM Value:  880651137
+5/14/2021 8:12:46 PM Writer id: 14 sent:   CODE_CONSUMER Value:  1969867091
 
-5/14/2021 7:36:29 PM Writer id: 8 sent:   CODE_MULTIPLENODE Value:  1607271672
+5/14/2021 8:12:46 PM Writer id: 8 sent:   CODE_CONSUMER Value:  1880782757
 
-5/14/2021 7:36:29 PM Writer id: 7 sent:   CODE_LIMITSET Value:  944951027
+5/14/2021 8:12:46 PM Writer id: 15 sent:   CODE_LIMITSET Value:  1172484015
 
-5/14/2021 7:36:30 PM Writer id: 6 sent:   CODE_CONSUMER Value:  1849178302
+5/14/2021 8:12:46 PM Writer id: 5 sent:   CODE_CUSTOM Value:  632877302
 
-5/14/2021 7:36:30 PM Writer id: 5 sent:   CODE_CUSTOM Value:  844521405
+5/14/2021 8:12:46 PM Writer id: 10 sent:   CODE_SINGLENODE Value:  1253215844
 
-5/14/2021 7:36:31 PM Writer id: 8 sent:   CODE_CUSTOM Value:  717991580
+5/14/2021 8:12:47 PM Writer id: 9 sent:   CODE_CUSTOM Value:  639429320
 
-5/14/2021 7:36:32 PM Writer id: 7 sent:   CODE_CUSTOM Value:  838680796
+5/14/2021 8:12:47 PM Writer id: 6 sent:   CODE_SINGLENODE Value:  1471127519
 
-5/14/2021 7:36:32 PM Writer id: 6 sent:   CODE_CONSUMER Value:  1922269968
+5/14/2021 8:12:47 PM Writer id: 13 sent:   CODE_LIMITSET Value:  1085720850
 
-5/14/2021 7:36:32 PM Writer id: 5 sent:   CODE_MULTIPLENODE Value:  1730366295
+5/14/2021 8:12:47 PM Writer id: 16 sent:   CODE_CONSUMER Value:  1882044795
 
-5/14/2021 7:36:33 PM Writer id: 8 sent:   CODE_DIGITAL Value:  556337821
+5/14/2021 8:12:48 PM Writer id: 7 sent:   CODE_ANALOG Value:  215522511
 
-5/14/2021 7:36:34 PM Writer id: 7 sent:   CODE_MULTIPLENODE Value:  1837625701
+5/14/2021 8:12:48 PM Writer id: 14 sent:   CODE_MULTIPLENODE Value:  1726914755
 
-5/14/2021 7:36:34 PM Writer id: 6 sent:   CODE_CONSUMER Value:  2084516830
+5/14/2021 8:12:48 PM Writer id: 8 sent:   CODE_CUSTOM Value:  632806211
+
+5/14/2021 8:12:48 PM Writer id: 15 sent:   CODE_SINGLENODE Value:  1338222926
+
+5/14/2021 8:12:48 PM Writer id: 5 sent:   CODE_CONSUMER Value:  2044269842
+
+5/14/2021 8:12:48 PM Writer id: 10 sent:   CODE_CONSUMER Value:  1857575924
+
+5/14/2021 8:12:49 PM Writer id: 9 sent:   CODE_CONSUMER Value:  2074858089
+
+5/14/2021 8:12:49 PM Writer id: 6 sent:   CODE_DIGITAL Value:  600883812
+
+5/14/2021 8:12:49 PM Writer id: 13 sent:   CODE_SINGLENODE Value:  1284995281
+
+5/14/2021 8:12:49 PM Writer id: 16 sent:   CODE_ANALOG Value:  237827980
+
+5/14/2021 8:12:50 PM Writer id: 7 sent:   CODE_DIGITAL Value:  609591737
+
+5/14/2021 8:12:50 PM Writer id: 14 sent:   CODE_MULTIPLENODE Value:  1799462504
+
+5/14/2021 8:12:50 PM Writer id: 8 sent:   CODE_MULTIPLENODE Value:  1701905742
+
+5/14/2021 8:12:50 PM Writer id: 15 sent:   CODE_ANALOG Value:  264690376
+
+5/14/2021 8:12:50 PM Writer id: 5 sent:   CODE_CUSTOM Value:  854984934
+
+5/14/2021 8:12:50 PM Writer id: 10 sent:   CODE_DIGITAL Value:  308742714
+
+5/14/2021 8:12:51 PM Writer id: 9 sent:   CODE_CUSTOM Value:  773448291
+
+5/14/2021 8:12:51 PM Writer id: 6 sent:   CODE_SINGLENODE Value:  1499062620
+
+5/14/2021 8:12:51 PM Writer id: 13 sent:   CODE_ANALOG Value:  42633660
+
+5/14/2021 8:12:51 PM Writer id: 16 sent:   CODE_MULTIPLENODE Value:  1623828020
+
+5/14/2021 8:12:52 PM Writer id: 7 sent:   CODE_DIGITAL Value:  437494321
+
+5/14/2021 8:12:52 PM Writer id: 14 sent:   CODE_ANALOG Value:  291042634
+
+5/14/2021 8:12:52 PM Writer id: 8 sent:   CODE_MULTIPLENODE Value:  1728321139
+
+5/14/2021 8:12:52 PM Writer id: 15 sent:   CODE_MULTIPLENODE Value:  1704516555
+
+5/14/2021 8:12:52 PM Writer id: 5 sent:   CODE_SINGLENODE Value:  1459337358
+
+5/14/2021 8:12:52 PM Writer id: 10 sent:   CODE_MULTIPLENODE Value:  1742704600
+
+5/14/2021 8:12:53 PM Writer id: 9 sent:   CODE_MULTIPLENODE Value:  1780446805
+
+5/14/2021 8:12:53 PM Writer id: 6 sent:   CODE_SINGLENODE Value:  1478732020
+
+5/14/2021 8:12:53 PM Writer id: 13 sent:   CODE_CUSTOM Value:  672987629
+
+5/14/2021 8:12:53 PM Writer id: 16 sent:   CODE_CONSUMER Value:  2002246388
+
+5/14/2021 8:12:54 PM Writer id: 7 sent:   CODE_SINGLENODE Value:  1257325474
+
+5/14/2021 8:12:54 PM Writer id: 14 sent:   CODE_SINGLENODE Value:  1456060010
+
+5/14/2021 8:12:54 PM Writer id: 8 sent:   CODE_SINGLENODE Value:  1445975400
+
+5/14/2021 8:12:54 PM Writer id: 15 sent:   CODE_CUSTOM Value:  693682190
+
+5/14/2021 8:12:54 PM Writer id: 5 sent:   CODE_CONSUMER Value:  1990478389
+
+5/14/2021 8:12:54 PM Writer id: 10 sent:   CODE_ANALOG Value:  59520085
+
+5/14/2021 8:12:55 PM Writer id: 9 sent:   CODE_MULTIPLENODE Value:  1556458705
+
+5/14/2021 8:12:55 PM Writer id: 6 sent:   CODE_LIMITSET Value:  1220084150
+
+5/14/2021 8:12:55 PM Writer id: 13 sent:   CODE_CUSTOM Value:  703221020
+
+5/14/2021 8:12:55 PM Writer id: 16 sent:   CODE_LIMITSET Value:  1125659569
+
+5/14/2021 8:12:56 PM Writer id: 7 sent:   CODE_LIMITSET Value:  946432451
+
+5/14/2021 8:12:56 PM Writer id: 14 sent:   CODE_DIGITAL Value:  572315951
+
+5/14/2021 8:12:56 PM Writer id: 8 sent:   CODE_CUSTOM Value:  861189463
+
+5/14/2021 8:12:56 PM Writer id: 15 sent:   CODE_LIMITSET Value:  942574386
+
+5/14/2021 8:12:56 PM Writer id: 5 sent:   CODE_LIMITSET Value:  1010106216
+
+5/14/2021 8:12:56 PM Writer id: 10 sent:   CODE_LIMITSET Value:  1202961062
+
+5/14/2021 8:13:35 PM Writer id: 5 sent:   CODE_MULTIPLENODE Value:  1628512679
+
+5/14/2021 8:13:36 PM Writer id: 6 sent:   CODE_DIGITAL Value:  430758129
+
+5/14/2021 8:13:37 PM Writer id: 5 sent:   CODE_SINGLENODE Value:  1385613765
+
+5/14/2021 8:13:37 PM Writer id: 7 sent:   CODE_DIGITAL Value:  557377385
+
+5/14/2021 8:13:38 PM Writer id: 8 sent:   CODE_MULTIPLENODE Value:  1720331905
+
+5/14/2021 8:13:38 PM Writer id: 6 sent:   CODE_DIGITAL Value:  471619760
+
+5/14/2021 8:13:39 PM Writer id: 5 sent:   CODE_ANALOG Value:  264079149
+
+5/14/2021 8:13:39 PM Writer id: 9 sent:   CODE_LIMITSET Value:  952319199
+
+5/14/2021 8:13:39 PM Writer id: 7 sent:   CODE_SINGLENODE Value:  1242469344
+
+5/14/2021 8:13:39 PM Writer id: 10 sent:   CODE_CONSUMER Value:  1913273572
+
+5/14/2021 8:13:40 PM Writer id: 8 sent:   CODE_CONSUMER Value:  1882122229
+
+5/14/2021 8:13:40 PM Writer id: 6 sent:   CODE_ANALOG Value:  183637828
+
+5/14/2021 8:13:41 PM Writer id: 5 sent:   CODE_CONSUMER Value:  1961943140
+
+5/14/2021 8:13:41 PM Writer id: 9 sent:   CODE_ANALOG Value:  261586815
+
+5/14/2021 8:13:41 PM Writer id: 7 sent:   CODE_CONSUMER Value:  1920458123
+
+5/14/2021 8:13:42 PM Writer id: 8 sent:   CODE_DIGITAL Value:  574897768
+
+5/14/2021 8:13:42 PM Writer id: 6 sent:   CODE_CONSUMER Value:  1846580279
+
+5/14/2021 8:13:43 PM Writer id: 5 sent:   CODE_CONSUMER Value:  2018901651
+
+5/14/2021 8:13:43 PM Writer id: 7 sent:   CODE_LIMITSET Value:  1152093698
+
+5/14/2021 8:13:44 PM Writer id: 6 sent:   CODE_LIMITSET Value:  1109542427
+
+5/14/2021 8:13:45 PM Writer id: 5 sent:   CODE_LIMITSET Value:  1051615587
+
+5/14/2021 8:13:46 PM Writer id: 6 sent:   CODE_DIGITAL Value:  486840482
+
+5/14/2021 8:13:46 PM Writer id: 11 sent:   CODE_SINGLENODE Value:  1374607442
+
+5/14/2021 8:13:47 PM Writer id: 5 sent:   CODE_SINGLENODE Value:  1236702543
+
+5/14/2021 8:13:48 PM Writer id: 6 sent:   CODE_LIMITSET Value:  941675823
+
+5/14/2021 8:13:49 PM Writer id: 5 sent:   CODE_LIMITSET Value:  1021388742
+
+5/14/2021 8:13:50 PM Writer id: 6 sent:   CODE_CUSTOM Value:  856473384
+
+5/14/2021 8:13:51 PM Writer id: 5 sent:   CODE_DIGITAL Value:  434204179
+
+5/14/2021 8:13:52 PM Writer id: 6 sent:   CODE_LIMITSET Value:  1002353359
+
+5/14/2021 8:13:53 PM Writer id: 5 sent:   CODE_SINGLENODE Value:  1462520206
+
+5/14/2021 8:13:54 PM Writer id: 6 sent:   CODE_MULTIPLENODE Value:  1724730726
+
+5/14/2021 8:13:55 PM Writer id: 5 sent:   CODE_SINGLENODE Value:  1474285210

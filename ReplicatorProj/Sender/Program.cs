@@ -1,6 +1,7 @@
 ﻿using Receiver;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -16,7 +17,7 @@ namespace Sender
 		{
 			Writer writer = new Writer();
 			List<Thread> threads = new List<Thread>();
-			Logger l = new Logger(@"LOGGS/writerLogs.txt");
+			Logger l = new Logger(@"LOGGS/UILogs.txt");
 			int ret;
 			int Meni()
 			{
@@ -57,16 +58,19 @@ namespace Sender
 					threads.Add(new Thread(writer.WriterSend));
 					threads[threads.Count - 1].Start();
 					Console.WriteLine($"Upaljeno {threads.Count} writera.");
+					l.LoggActivity("Upaljen novi writer. Trenutno writera -> " + threads.Count);
 				}
 				else if (ret == 2)
 				{
 					threads[threads.Count - 1].Abort();
 					threads.RemoveAt(threads.Count - 1);
 					Console.WriteLine($"Upaljeno {threads.Count} writera.");
+					l.LoggActivity("Ugasen jedan writer. Trenutno writera -> " + threads.Count);
 
 				}
 				else if (ret == 3)
 				{
+					continue;
 				}
 				else if (ret == 4)
 				{
